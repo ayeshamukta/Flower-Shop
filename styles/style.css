@@ -31,9 +31,11 @@ header
 {
     display: flex;
     justify-content: space-between;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); */
     align-items: center;
     /* margin-bottom: 36px; */
+    padding-top: 20px;
+    
 }
 .nav-middle
 {
@@ -43,16 +45,20 @@ header
     
     /* border: 2px solid red; */
 }
-.nav-middle a:hover
+.nav-middle a
+{
+    color: black;
+}
+/* .nav-middle a:hover
 {
     
     border-radius: 8px;
     padding: 2px 4px;
-}
+} */
 .n-logo
 {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 36px;
 }
 .nav-logo
 {
@@ -185,4 +191,32 @@ footer
     /* border: 1px solid red; */
     margin: 40px auto ;
     
+}
+/* extra features css */
+#extra-features
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+    background-color: #f9dee2;
+    border-radius: 8px;
+    
+}
+.extra-card
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    width: 150px;
+    padding: 10px;
+    
+
+   
+    
+}
+.marginbody
+{
+    margin: 0 auto;
+    width: 1300px;
 }
