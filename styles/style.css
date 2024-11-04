@@ -17,7 +17,7 @@
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
-    background-color: rgb(226, 189, 223);
+    background-color: rgb(222, 197, 220);
 }
 /* .paraghraph-color
 {
@@ -136,4 +136,53 @@ footer
     padding: 10px 20px;
     
 
+}
+.products
+{
+    /* /* align-items: center; */
+    text-align: center; 
+    
+    /* border: 1px solid red; */
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+#img1
+{
+    background-color: #d6adc1;
+    border-radius: 50% 50% 0 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#img2
+{
+    background-color: #91b7b9;
+    border-radius: 50% 50% 0 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#img3
+{
+    background-color: #d0e3bc;
+    border-radius: 50% 50% 0 0;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.cards > div >a
+{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    
+}
+#heading
+{
+    width: 550px;
+    /* border: 1px solid red; */
+    margin: 40px auto ;
+    
 }
