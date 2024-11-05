@@ -220,3 +220,55 @@ footer
     margin: 0 auto;
     width: 1300px;
 }
+.reviews
+{
+    text-align: center;
+    background-color: rgb(244, 241, 238);
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px rgba(193, 189, 189, 0.2);
+    padding: 18px;
+    
+}
+.reviews> div
+{
+    padding-bottom: 12px;
+}
+.reviews> .rating> i
+{
+    color: rgb(214, 214, 140);
+    
+}
+#review-content
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin: 40px auto 40px auto;
+}
+.review-post
+{
+    text-align: center;
+    /* border: 1px solid #91b7b9; */
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 600px;
+    margin: 24px auto 24px auto;
+}
+#review-textarea
+{
+    border: 1px solid #91b7b9;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+    padding: 8px;
+    padding-bottom: 0px;
+}
+.post-btn
+{
+    /* border: 1px solid #91b7b9; */
+    padding: 0px 24px 0px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+}
