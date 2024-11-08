@@ -77,11 +77,12 @@ header
     grid-template-columns: repeat(2, 1fr);
     /* background-color: rgb(240, 202, 214); */
     /* height: 200px; */
+    
 }
 .banner-content
 {
     align-content: center;
-    padding: 0 30px;
+    /* padding: 0 0px; */
     
 }
 .banner-img
@@ -94,6 +95,7 @@ header
 {
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 18px;
 }
 /* footer Css */
 footer
@@ -128,6 +130,8 @@ footer
 {
     padding: 20px 0px;
     margin: 40px 0px;
+    text-align: center;
+    
 
 }
 
@@ -137,7 +141,9 @@ footer
     border-radius: 8px;
     font-size: 20px;
     padding: 10px 20px;
+    
 }
+
 
 #Subscribe-btn
 {
@@ -161,6 +167,7 @@ footer
 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
     gap: 30px;
 }
 #img1
@@ -194,11 +201,13 @@ footer
 }
 #heading
 {
-    width: 550px;
+    max-width: 550px;
+    width: 100%;
     /* border: 1px solid red; */
     margin: 40px auto ;
     
 }
+
 /* extra features css */
 #extra-features
 {
@@ -225,7 +234,7 @@ footer
 .marginbody
 {
     margin: 0 auto;
-    width: 1300px;
+    max-width: 1300px;
 }
 
 .reviews
@@ -303,6 +312,11 @@ footer
     /* border: 2px solid black; */
     padding: 20px;
 }
+.pro-content
+{
+    text-align: center;
+    width: auto;
+}
 .cart
 {
     font-weight: bold;
@@ -335,7 +349,7 @@ footer
 }
 .about-content
 {
-    margin: 50px 0 ;
+    margin: 50px 0px ;
     text-align: center;
 }
 .about-content >div>h1
@@ -351,7 +365,8 @@ footer
 #contact-form
 {
     
-    margin: 80px 0 20px 0;
+    margin: 80px auto 20px auto;
+    width: 80%;
 }
 #contactTextarea
 {
@@ -393,3 +408,12 @@ footer
     border-radius: 8px;
     width: 20%;
 }
+.pro-rating
+{
+    color: rgb(226, 226, 156);
+}
+.nav-bar,.banner, .products, #extra-features, #get-deals
+{
+    margin: 0px auto 20px auto;
+}
+
