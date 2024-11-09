@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    /* list-style: none; */
     border: none;
 }
 .medium-font
@@ -101,10 +102,38 @@ header
 footer
 {
     background-color: black;
-    color: white;
-    text-align: center;
-    padding: 40px 0px;
 }
+.f-con
+{
+    
+    color: white;
+    text-align: start;
+    padding: 40px 0px;
+    display: flex;
+    
+    width: 700px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.f-des
+{
+    width: 40%;
+    align-items: start;
+}
+  .footer-links
+  {
+    width: 40%;
+    margin: auto;
+    justify-items: end;
+  }  
+/* footer>div
+{
+    
+    
+    border: 2px solid white;
+    margin: 20px auto 20px auto;
+    
+} */
 #footer-logo
 {
     font-size: 40px;
@@ -169,6 +198,7 @@ footer
     grid-template-columns: repeat(3,1fr);
     /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
     gap: 30px;
+    
 }
 #img1
 {
@@ -176,6 +206,12 @@ footer
     border-radius: 50% 50% 0 0;
     padding-top: 20px;
     padding-bottom: 10px;
+    
+   
+}
+#img1 > div >img, #img2 > div >img, #img3 > div >img
+{
+    max-width: 50%;
 }
 #img2
 {
@@ -183,17 +219,21 @@ footer
     border-radius: 50% 50% 0 0;
     padding-top: 20px;
     padding-bottom: 10px;
+    
+    
 }
 #img3
 {
     background-color: #d0e3bc;
     border-radius: 50% 50% 0 0;
-    padding-top: 18px;
+    padding-top: 20px;
     padding-bottom: 10px;
+    
+    
 }
 .cards > div >a
 {
-    text-decoration: underline;
+    
     font-weight: bold;
     font-size: 24px;
     color: black;
@@ -316,6 +356,12 @@ footer
 {
     text-align: center;
     width: auto;
+    margin-bottom: 10px;
+}
+.pro-content>p 
+{
+   
+    margin-bottom: 5px;
 }
 .cart
 {
@@ -330,6 +376,7 @@ footer
 {
     width: 300px;
     height: 400px;
+    border-radius: 12px;
 }
 .member-img
 {
@@ -416,4 +463,27 @@ footer
 {
     margin: 0px auto 20px auto;
 }
-
+.footer-links>ul>li>a
+{
+    color: white;
+    font-size: 18px;
+    align-items: start;
+    justify-items: center;
+}
+hr
+{
+    border-top: 2px solid white;
+    width: 1400px;
+    margin: auto;
+}
+.copyrights
+{
+    text-align: center;
+    color: white;
+    width: auto;
+    padding: 20px auto 20px auto;
+}
+#bar
+{
+    display: none;
+}
