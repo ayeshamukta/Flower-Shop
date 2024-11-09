@@ -20,10 +20,15 @@
     font-style: italic;
     background-color: rgb(222, 197, 220);
 }
-/* .paraghraph-color
+.paraghraph-color
 {
-    color: wh;
-} */
+    margin-bottom: 8px;
+}
+.contact-footer-logo
+{
+    display: flex;
+    gap: 10px;
+}
 header
 {
     background-image: linear-gradient(to bottom,#ffc5ce,#f092a1 );
