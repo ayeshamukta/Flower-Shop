@@ -33,6 +33,11 @@ header
 {
     background-image: linear-gradient(to bottom,#ffc5ce,#f092a1 );
 }
+.nav-start > img
+{
+    width: 220px;
+    /* height: 150px; */
+}
 .nav-bar
 {
     display: flex;
@@ -62,17 +67,7 @@ header
 {
     text-decoration: underline;
 }
-/* .nav-middle a:hover
-{
-    
-    border-radius: 8px;
-    padding: 2px 4px;
-} */
-.n-logo
-{
-    font-weight: 800;
-    font-size: 36px;
-}
+
 .nav-logo
 {
     color: rgb(71, 130, 142);
